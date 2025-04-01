@@ -51,7 +51,7 @@ If your password contain the characters `?` or `$`, you need to escape them with
 
 Lastly, setup a schedule to run the script every 15 minutes. This ensures the connection is checked every 15 minutes and reconfigured if the connection is down. Replace `vpn-pia-berlin-1` in the following with what you named the above script.
 ```
-/system/scheduler/add name="vpn-pia-berlin-1" interval=15m start-time=startup on-event="/system/script/run vpn-pia-berlin-1;";
+/system/scheduler/add name="vpn-pia-romania" interval=15m start-time=startup on-event="/system/script/run vpn-pia-romania;";
 ```
 
 > [!IMPORTANT]
